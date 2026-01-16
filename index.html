@@ -121,16 +121,16 @@ img {max-width:80%; border-radius:16px; box-shadow:0 4px 16px rgba(0,0,0,0.3); m
         </div>
       </div>
       <div class="error" id="errorMsg"></div>
-      <p style="margin-top:12px; font-size:16px; color:#555;"><i>* Clue: tahun lahirmu</i></p>
+      <p style="margin-top:12px; font-size:16px; color:#555;"><i>* Clue: pertama kali ngobrol sama adek</i></p>
     </div>
   </div>
 
   <!-- Slide 2 -->
   <div class="slide" id="slide2">
     <div class="content">
-      <h1>Selamat Ulang Tahun 🎉</h1>
+      <h1>hipibidi dunianya adek!</h1>
       <img src="birthday.gif" alt="Happy Birthday">
-      <p>Semoga hari ini penuh dengan tawa, cinta, dan kebahagiaan.</p>
+      <p>Semoga hari abang selalu penuh dengan tawa, cinta, dan kebahagiaan.</p>
     </div>
     <div class="nav-btns">
       <button class="btn" onclick="prevSlide()">⬅ Kembali</button>
@@ -141,9 +141,9 @@ img {max-width:80%; border-radius:16px; box-shadow:0 4px 16px rgba(0,0,0,0.3); m
   <!-- Slide 3 -->
   <div class="slide" id="slide3">
     <div class="content">
-      <h1>Doa & Harapan ✨</h1>
+      <h1>doa yang terbaik buat abang</h1>
       <img src="hope.gif" alt="Doa dan Harapan">
-      <p>Semoga panjang umur, sehat selalu, dan dilimpahkan rezeki serta berkah.</p>
+      <p>Semoga panjang umur, sehat selalu, dan jangan lupa bahagia ya bang!</p>
     </div>
     <div class="nav-btns">
       <button class="btn" onclick="prevSlide()">⬅ Kembali</button>
@@ -154,9 +154,9 @@ img {max-width:80%; border-radius:16px; box-shadow:0 4px 16px rgba(0,0,0,0.3); m
   <!-- Slide 4 -->
   <div class="slide" id="slide4">
     <div class="content">
-      <!-- <h1>Kata-kata Romantis ❤️</h1> -->
+      <!-- <h1>❤️</h1> -->
       <img src="foto.jpg" alt="Foto Romantis">
-      <p>Kamu adalah anugerah terindah dalam hidupku.</p>
+      <p>i'm so lucky to have met you in my life bang!</p>
     </div>
     <div class="nav-btns">
       <button class="btn" onclick="prevSlide()">⬅ Kembali</button>
@@ -167,9 +167,9 @@ img {max-width:80%; border-radius:16px; box-shadow:0 4px 16px rgba(0,0,0,0.3); m
   <!-- Slide 5 -->
   <div class="slide" id="slide5">
     <div class="content">
-      <!-- <h1>Terima Kasih 🙏</h1> -->
+      <!-- <h1>jangan pernah nyerah ya</h1> -->
       <img src="thanks.gif" alt="Terima Kasih">
-      <p>Terima kasih sudah menjadi bagian penting dalam hidupku. Aku bersyukur memilikimu.</p>
+      <p>kamu keren banget, makasih udah kuat sampe detik ini ya, selalu jadi orang hebat ya!</p>
     </div>
     <div class="nav-btns" style="justify-content:center;">
       <button class="btn" onclick="prevSlide()">⬅ Kembali</button>
@@ -200,7 +200,7 @@ function animateSlides(oldIndex,newIndex){
 function checkPin(){
   const inputs=document.querySelectorAll('#slide1 input');
   const pin=[...inputs].map(i=>i.value).join('');
-  if(pin==="2003"){
+  if(pin===2112"){
     animateSlides(1,2);
     document.getElementById('errorMsg').innerText="";
   } else {
@@ -238,4 +238,5 @@ animate(); window.addEventListener("resize",()=>{canvas.width=window.innerWidth;
 
 </body>
 </html>
+
 
